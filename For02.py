@@ -6,6 +6,9 @@ def main(n):
     Returns:
         string: return  answer
     """
+    z = ""
     a = range(0, n)
-    b = ''
-    return b.append(a)
+    for i in range(a):
+        z += str(i) + ','
+    
+    return z
