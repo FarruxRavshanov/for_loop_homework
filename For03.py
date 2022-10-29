@@ -7,4 +7,5 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return list(k) * n
+    a = [k]
+    return (a * n)
