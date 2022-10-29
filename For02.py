@@ -11,4 +11,4 @@ def main(n):
     for i in range(a):
         z += str(i) + ','
     
-    return z
+    return z[:-1]
