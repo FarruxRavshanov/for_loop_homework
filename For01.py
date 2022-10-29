@@ -10,4 +10,4 @@ def main(n):
         list: return  answer
     """
     a = range(0,n)
-    return a
+    return a.split()
