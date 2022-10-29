@@ -7,6 +7,5 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    s = range(A, B)
-    a = list(s)
-    return s[::-1]
+    s = range(B, A)
+    return list(s)
