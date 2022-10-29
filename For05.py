@@ -8,6 +8,6 @@ def main(A,B):
         list: return  answer
     """
     s = range(B, A + 1)
-    return list(s)[::-1]
+    return s
 
 print(main(3, 7))
