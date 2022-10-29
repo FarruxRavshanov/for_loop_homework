@@ -7,8 +7,7 @@ def main(n):
         string: return  answer
     """
     z = ""
-    a = range(0, n)
-    for i in range(a):
+    for i in range(0,n):
         z += str(i) + ','
     
     return z[:-1]
