@@ -7,4 +7,5 @@ def main(n):
         string: return  answer
     """
     a = range(0, n)
-    return a.string
+    b = ''
+    return b.append(a)
