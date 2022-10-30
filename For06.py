@@ -7,7 +7,8 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    c = 0
-    x = range(A, B)
-    c += x
-    return c
+    s = 0
+
+    for d in range(A, B):
+        s += d
+    return d
