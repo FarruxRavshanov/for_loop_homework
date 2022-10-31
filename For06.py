@@ -7,8 +7,13 @@ def main(A,B):
     Returns:
         int: return  answer
     """
+    list1 = list(range(A, B))
+    i = 0
     s = 0
 
-    for s in range(A, B):
-        s += range(A, B)
+    while i < len(list1):
+        s += list1[i]
+        i += 1
     return s
+
+print(main(3, 6))
