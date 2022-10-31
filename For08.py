@@ -6,4 +6,10 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    list1 = list(0, N)
+    sum = 0
+    i = 0
+
+    while i < len(list1):
+        sum += 1 / list1[i]
+    return sum
