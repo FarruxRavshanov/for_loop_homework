@@ -6,10 +6,8 @@ def main(N):
     Returns:
         float: return  answer
     """
-    list1 = list(0, N)
-    sum = 0
-    i = 0
+    s = 0
+    for i in range(1, N + 1):
+        s += 1 / i
 
-    while i < len(list1):
-        sum += 1 / list1[i]
-    return sum
+    return s
