@@ -8,6 +8,6 @@ def main(price):
     """
     kg = list(0, 11)
 
-    for price in kg:
+    for kg in price:
 
         return price
