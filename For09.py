@@ -6,4 +6,8 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    kg = list(1, 11)
+
+    for price in kg:
+
+        return price
