@@ -6,8 +6,7 @@ def main(price):
     Returns:
         list: return  answer
     """
-    kg = list(0, 11)
-
-    for kg in price:
-
-        return price
+    sum = []
+    for i in range(1, 11):
+        sum.append(i * price)
+    return sum
