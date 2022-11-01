@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    i = 0
+    while i < len(list1):
+        list1[i] = list1[i].capitalize()
+        i += 1
+    return list1
