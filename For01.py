@@ -1,6 +1,3 @@
-import py_compile
-
-
 def main(n):
     """
     Return numbers from zero to n in a list view.
@@ -11,6 +8,3 @@ def main(n):
     """
     a = range(0, n)
     return list(a)
-
-
-print(main(5))
